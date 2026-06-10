@@ -1,4 +1,4 @@
-[![Mobile Dual-Arm Manipulator Research Banner](assets/dualarm_banner.svg)](assets/dualarm_banner.svg)
+[![Mobile Dual-Arm Manipulator Research Banner](dualarm_banner.svg)](dualarm_banner.svg)
 
 # 🤖 Mobile Dual-Arm Manipulator Research
 
@@ -42,7 +42,7 @@ A mobile manipulator is not just "two arms bolted onto a moving base". It is an 
 | 🪜 First milestone | Get familiar with manipulator control methods and become productive in **MoveIt** |
 | 🧪 Validation path | MoveIt planning → simulation → single-arm control → dual-arm coordination → whole-body |
 
-[![Project roadmap](assets/research_roadmap.svg)](assets/research_roadmap.svg)
+[![Project roadmap](research_roadmap.svg)](research_roadmap.svg)
 
 ---
 
@@ -150,7 +150,7 @@ This project builds up in stages, from tooling to coordination to learning:
 
 ## 🚗 Steering-Wheel Chassis
 
-[![Steering-wheel chassis kinematics](assets/chassis_kinematics.svg)](assets/chassis_kinematics.svg)
+[![Steering-wheel chassis kinematics](chassis_kinematics.svg)](chassis_kinematics.svg)
 
 The base uses **steering-wheel (steerable) modules** rather than fixed differential wheels. Each module can steer and drive, which gives the chassis a wide motion envelope but also makes its kinematics more involved than a simple unicycle model.
 
@@ -175,7 +175,7 @@ The base uses **steering-wheel (steerable) modules** rather than fixed different
 
 ## 🤝 Dual-Arm Coordination
 
-[![Dual-arm coordination concept](assets/dualarm_coordination.svg)](assets/dualarm_coordination.svg)
+[![Dual-arm coordination concept](dualarm_coordination.svg)](dualarm_coordination.svg)
 
 The two arms can be controlled in several modes, in increasing difficulty:
 
@@ -239,7 +239,7 @@ The robot is modeled as a redundant kinematic (and optionally dynamic) system. T
 
 ## 🧠 Research Focus
 
-[![Whole-body control stack](assets/control_stack.svg)](assets/control_stack.svg)
+[![Whole-body control stack](control_stack.svg)](control_stack.svg)
 
 This project lands on three major control directions:
 
@@ -304,7 +304,7 @@ Multiple tasks (e.g. both end effectors plus a relative-pose constraint) can be 
 
 ## 🧠 3. Reinforcement Learning Augmentation
 
-[![QP plus RL architecture](assets/qp_rl_architecture.svg)](assets/qp_rl_architecture.svg)
+[![QP plus RL architecture](qp_rl_architecture.svg)](qp_rl_architecture.svg)
 
 Pure model-based control struggles with effects that are hard to model: wheel slip, contact, payload variation, and complex task decisions. **Reinforcement learning** can augment — not replace — the QP layer.
 
@@ -363,7 +363,7 @@ Keeping the QP in the loop means the **safety constraints are always enforced**,
 ```
 mobile-dualarm-manipulator-research/
 ├── README.md
-├── assets/
+├── 
 │   ├── dualarm_banner.svg
 │   ├── research_roadmap.svg
 │   ├── chassis_kinematics.svg
